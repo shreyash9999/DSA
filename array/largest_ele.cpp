@@ -48,3 +48,5 @@ int main(){
     cout<<secondlargest(arr,n);
     return 0;
 }
+
+int push;
