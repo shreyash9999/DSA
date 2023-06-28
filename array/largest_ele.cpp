@@ -22,6 +22,8 @@ int largest(int arr[],int n){
 //     return max;
 // }
 
+int x;
+
 int secondlargest(int arr[],int n){
     int res = -1,largest  =0;
     for (int i=1;i<n;i++){
