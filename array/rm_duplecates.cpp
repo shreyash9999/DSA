@@ -7,7 +7,8 @@ int rm_dup(int arr[],int n){
     v.assign(arr,arr+n);
 
     set<int> s(v.begin(),v.end());
-    for(auto it:s)cout<<it<<" "<<endl;
+    for(auto it:s)cout<<it<<" ";
+    cout<<endl;
     cout<<s.size();
 }
 
